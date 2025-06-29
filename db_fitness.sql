@@ -45,8 +45,6 @@ INSERT INTO `member` (`id_member`, `nama`, `no_telepon`, `alamat`, `tanggal_daft
 (4, 'Reyna Aisyah Azzaira', '09127162731', 'Bakti Jaya Pocis', '2025-06-02', '2025-07-02', 'Aktif'),
 (5, 'Surya', '08126662612', 'Reni Jaya', '2025-06-10', '2025-09-10', 'Aktif'),
 (6, 'Hadi Zakaria', '081267512121', 'Pamulang 2', '2025-06-10', '2025-06-02', 'Tidak Aktif'),
-(7, 'Muhamad Salwarud', '123', '123', '2025-06-17', '2025-08-17', 'Aktif'),
-(8, 'Warud', '123', '123das', '2025-06-17', '2025-07-17', 'Aktif');
 
 -- --------------------------------------------------------
 
@@ -113,7 +111,6 @@ CREATE TABLE `user_admin` (
 
 INSERT INTO `user_admin` (`id_user`, `username`, `password`, `nama_lengkap`) VALUES
 (125, 'admin', '$2y$10$uyjW0.A0nKxkeTJc3hGTiu5wiG9bT4s4oeu8X2J1iktUz0S1BXkfG', 'Administrator Utama'),
-(126, 'warud', '$2y$10$n08Vzw1ej4BY2fjpUujuS.p/V5m4cpvzRYYsq6ye684.ywfd/UPIG', 'Muhamad Salwarud');
 
 --
 -- Indexes for dumped tables
